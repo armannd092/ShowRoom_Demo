@@ -4,12 +4,13 @@
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <title>Unity WebGL Player | Present01</title>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
     <script src="Build/UnityLoader.js"></script>
     <script>
       var gameInstance = UnityLoader.instantiate("gameContainer", "Build/Build.json");
     </script>
   </head>
   <body>
-    <div id="gameContainer" style="width: 1080px; height: 1920px; margin: auto"></div>
+    <div id="gameContainer" style="$(window).width(); $(window).height; margin: auto"></div>
   </body>
 </html>
