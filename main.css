@@ -5,8 +5,8 @@
 .gameContainer
 {
 	height: 100vh; 
-	width: auto; 
-	margin: auto
+	width: 100%; 
+	margin: 0;
 }
 .videoOver
 {
@@ -29,7 +29,7 @@
 @keyframes loading {
   0% {z-index:9999; opacity: 100; background: rgb(199, 250, 255);}
   70% {z-index:9999; opacity: 70; background: rgb(239, 200, 223);}
-  80% {z-index:9999; opacity: 30; background: rgb(242, 214, 232);}
+  80% {z-index:9999; opacity: 30; background: rgb(239, 200, 223);}
   90% {z-index:9999; opacity: 0;  background: rgb(255, 255, 255);}
   100% {z-index: -9999; opacity: 0; background: rgb(255, 255, 255);}
 }
