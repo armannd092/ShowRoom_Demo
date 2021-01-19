@@ -37,7 +37,7 @@
 }
 @keyframes loading {
   0% {z-index:9999; opacity: 100; }
-  70% {z-index:9999; opacity: 70; }
+  80% {z-index:9999; opacity: 90; }
   90% {z-index:9999; opacity: 0;  }
   100% {z-index: -9999; opacity: 0; }
 }
