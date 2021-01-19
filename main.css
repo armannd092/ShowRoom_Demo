@@ -15,6 +15,7 @@
 }
 .preloader {
   align-items: center;
+  background: black;
   display: flex;
   height: 100vh;
   justify-content: center;
@@ -25,11 +26,18 @@
   animation-duration: 18s;
   width: 100%;
 }
-
+.loading-video{
+    background-size: cover;
+    margin: 0;
+}
+.h2{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
 @keyframes loading {
-  0% {z-index:9999; opacity: 100; background: rgb(199, 250, 255);}
-  70% {z-index:9999; opacity: 70; background: rgb(239, 200, 223);}
-  80% {z-index:9999; opacity: 30; background: rgb(239, 200, 223);}
-  90% {z-index:9999; opacity: 0;  background: rgb(255, 255, 255);}
-  100% {z-index: -9999; opacity: 0; background: rgb(255, 255, 255);}
+  0% {z-index:9999; opacity: 100; }
+  70% {z-index:9999; opacity: 70; }
+  90% {z-index:9999; opacity: 0;  }
+  100% {z-index: -9999; opacity: 0; }
 }
